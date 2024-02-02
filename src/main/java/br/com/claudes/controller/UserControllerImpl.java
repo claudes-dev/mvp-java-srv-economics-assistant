@@ -1,5 +1,7 @@
 package br.com.claudes.controller;
 
-public class UserControllerImpl {
+import br.com.claudes.mvpjavasrveconomicsassistant.api.DefaultApi;
+
+public class UserControllerImpl implements DefaultApi{
     
 }

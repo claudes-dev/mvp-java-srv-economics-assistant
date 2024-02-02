@@ -10,7 +10,7 @@ paths:
     get:
       summary: Get all users
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
@@ -35,7 +35,7 @@ paths:
                 name:
                   type: string
       responses:
-        '201':
+        "201":
           description: Created
   /users/{id}:
     get:
@@ -47,7 +47,7 @@ paths:
           schema:
             type: integer
       responses:
-        '200':
+        "200":
           description: OK
           content:
             application/json:
@@ -76,7 +76,7 @@ paths:
                 name:
                   type: string
       responses:
-        '200':
+        "200":
           description: OK
     delete:
       summary: Delete a user by ID
@@ -87,5 +87,5 @@ paths:
           schema:
             type: integer
       responses:
-        '204':
+        "204":
           description: No Content
